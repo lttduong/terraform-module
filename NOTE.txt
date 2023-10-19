@@ -1,0 +1,13 @@
+
+# Create a SP with permission is Contributor and scope /subscriptions/194c7b51-a4cb-4d50-b90b-5a326eb7a837
+az ad sp create-for-rbac \
+  --role="Contributor" \
+  --scopes="/subscriptions/8b8d5911-b3d1-4353-b4cd-c25b395dd4ab"
+
+{
+  "appId": "af5f5ac5-581c-4e86-b048-ac2884724a6b",
+  "displayName": "azure-cli-2023-10-18-08-50-36",
+  "password": "IQY8Q~RwBNK3Hozw1JNpCJ_htEWLiJR5TIH4Lcfv",
+  "tenant": "ed0bf84e-e5ad-4186-af25-f45085a91cbe"
+}
+
